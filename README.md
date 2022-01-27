@@ -1,6 +1,6 @@
 
 # Prediction of NPS value for Santalucia
-#![Python](https://img.shields.io/badge/-Python-f7c437?style=flat-square&logo=python&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-f7c437?style=flat-square&logo=python&logoColor=black)
 
 
 This is a time-series implementation for the prediction of the NPS (Net-promoter-score) of Santalucía [Spanish Insurance Company]. In this implementation the prediction is done in two different ways. We first use a linear model after applying extensive preprocessing and data handling. In the second implementation we use traditional time-series algorithms, we try simple Moving Averages, ARIMA and Exponential Moving Averages. We execute this trials in both 1,3 and 14 months. We conclude that the exponential moving averages is the best algorithm for the prediction. 
